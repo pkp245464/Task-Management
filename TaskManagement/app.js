@@ -32,7 +32,6 @@ const item2 = new Item({
 const item3 = new Item({
     name: "Nikhilesh"
 })
-// mongodb, html ,css, javascript nodejs, express js, ejs, lodash
 const defaultItems = [item1, item2, item3];
 
 app.get("/", (req, res) => {
